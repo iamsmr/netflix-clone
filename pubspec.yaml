@@ -69,6 +69,8 @@ flutter:
         - asset: assets/fonts/NetflixSansLight.ttf
         - asset: assets/fonts/NetflixSansMedium.ttf
         - asset: assets/fonts/NetflixSansRegular.ttf
+        - asset: assets/fonts/NetflixSansIcon.ttf
+
 
   #   - family: Trajan Pro
   #     fonts:
