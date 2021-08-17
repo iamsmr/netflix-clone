@@ -27,12 +27,17 @@ class SubscribeButton extends StatelessWidget {
         minWidth: 200,
         color: Colors.red,
         textColor: Colors.white,
-        child: Text(
-          "Get Started",
-          style: TextStyle(
-            fontSize: 22,
-            fontWeight: FontWeight.w400,
-          ),
+        child: Row(
+          children: [
+            Text(
+              "Get Started  ",
+              style: TextStyle(
+                fontSize: 22,
+                fontWeight: FontWeight.w400,
+              ),
+            ),
+            Icon(Icons.arrow_right)
+          ],
         ),
       );
     }
