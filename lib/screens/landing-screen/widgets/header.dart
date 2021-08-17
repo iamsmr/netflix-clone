@@ -1,5 +1,5 @@
-
 import 'package:flutter/material.dart';
+import 'package:netflix_clone/screens/authentication/sign-in.dart';
 import 'package:netflix_clone/widgets/widgets.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
@@ -49,7 +49,8 @@ class Header extends StatelessWidget {
                 children: [
                   NetflixLogo(),
                   ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () =>
+                        Navigator.pushNamed(context, SignIn.routeName),
                     child: Text("Sign In"),
                   )
                 ],

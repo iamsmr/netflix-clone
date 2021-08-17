@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:netflix_clone/config/custom-router.dart';
+import 'package:netflix_clone/screens/authentication/sign-in.dart';
 import 'package:netflix_clone/screens/landing-screen/landing-screen.dart';
 
 void main() {
@@ -17,7 +19,9 @@ class MyApp extends StatelessWidget {
         fontFamily: "Netflix Sans",
       ),
       debugShowCheckedModeBanner: false,
+      onGenerateRoute: CoustomRoute.onGenerateRoute,
       home: LandingScreen(),
+      // home: SignIn(),
     );
   }
 }

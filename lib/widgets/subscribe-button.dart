@@ -15,6 +15,9 @@ class SubscribeButton extends StatelessWidget {
             fillColor: Colors.white,
             filled: true,
             hintText: "Email Address",
+            hintStyle: TextStyle(
+              color: Colors.grey,
+            ),
           ),
         ),
       );
