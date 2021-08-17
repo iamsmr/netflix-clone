@@ -28,6 +28,7 @@ class SubscribeButton extends StatelessWidget {
         color: Colors.red,
         textColor: Colors.white,
         child: Row(
+          mainAxisSize: MainAxisSize.min,
           children: [
             Text(
               "Get Started  ",
