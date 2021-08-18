@@ -7,7 +7,7 @@ class NetflixLogo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenTypeLayout(
-        mobile: _image(30), tablet: _image(40), desktop: _image(40));
+        mobile: _image(30), tablet: _image(35), desktop: _image(37));
   }
 
   Widget _image(double size) {

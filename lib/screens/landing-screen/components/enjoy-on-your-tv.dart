@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:netflix_clone/widgets/widgets.dart';
 import 'package:responsive_builder/responsive_builder.dart';
@@ -20,7 +19,6 @@ class _EnjoyOnYourTVState extends State<EnjoyOnYourTV> {
     )..initialize().then((_) {
         _controller.play();
         _controller.setLooping(true);
-        // Ensure the first frame is shown after the video is initialized, even before the play button has been pressed.
         setState(() {});
       });
   }

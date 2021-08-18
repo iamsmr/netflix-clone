@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:netflix_clone/screens/authentication/sign-in.dart';
+import 'package:netflix_clone/screens/authentication/login-screen/sign-in.dart';
 import 'package:netflix_clone/widgets/widgets.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 

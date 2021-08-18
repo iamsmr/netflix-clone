@@ -3,3 +3,4 @@ export 'enjoy-on-your-tv.dart';
 export 'forkid.dart';
 export 'offline-download.dart';
 export 'watch-everyware.dart';
+export 'frequently-asked-question.dart';
