@@ -2,6 +2,13 @@
 
 A new Flutter project.
 
+
+![screen](https://github.com/iamsmr/netflix-clone/blob/main/netflix-clone.gif)
+
+![screen](https://github.com/iamsmr/netflix-clone/blob/main/Screenshot-1.png)
+
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
