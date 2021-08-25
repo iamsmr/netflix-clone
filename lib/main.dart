@@ -22,8 +22,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       onGenerateRoute: CoustomRoute.onGenerateRoute,
       // home: LandingScreen(),
-      // home: ProfileBrowse(),
-      home: HomePage(),
+      home: ProfileBrowse(),
+      // home: HomePage(),
     );
   }
 }
